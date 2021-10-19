@@ -1,37 +1,25 @@
 import React from "react";
-import {
-    ServBtn,
-    ServH2,
-    ServicesImageWrap,
-    ServicesItem,
-    ServicesText,
-    ServicesTextContent,
-    ServImage,
-    ServP,
-} from "./ServicesElements";
+import './style.css';
+import { Row, Col } from 'antd';
 
 const ServicesSection = ({
-    imgStart,
     headline,
     description,
-    buttonLabel,
-    img,
-    alt,
-    imgBack,
+    img
 }) => {
     return (
-        <ServicesItem imgStart={imgStart}>
-            <ServicesText>
-                <ServicesTextContent>
-                    <ServH2>{headline}</ServH2>
-                    <ServP>{description}</ServP>
-                    <ServBtn>{buttonLabel}</ServBtn>
-                </ServicesTextContent>
-            </ServicesText>
-            <ServicesImageWrap>
-                <ServImage src={img} alt={alt} />
-            </ServicesImageWrap>
-        </ServicesItem>
+        <Row className="services-item container">
+            <Col span={12} className="serv-text">
+                <div className="serv-text-content">
+                    <h2 className="serv-header">{headline}</h2>
+                    <p className="serv-par">{description}</p>
+                    <button className="serv-button">learn more</button>
+                </div>
+            </Col>
+            <Col span={12} className="serv-image-wrap">
+                <div className="serv-image" style={{backgroundImage: `url(${img})`}}></div>
+            </Col>
+        </Row>
     );
 };
 
