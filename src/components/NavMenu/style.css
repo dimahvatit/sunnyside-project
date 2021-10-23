@@ -6,6 +6,7 @@
 	margin-bottom: 0;
 	min-height: 100%;
 	color: #fff;
+	font-size: 1rem;
 }
 
 .nav-link-item {
@@ -15,7 +16,6 @@
 }
 
 .nav-link {
-	font-size: 16px;
 	color: inherit;
 	cursor: pointer;
 	padding: 5px;

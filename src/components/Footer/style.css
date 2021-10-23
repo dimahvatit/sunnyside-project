@@ -15,6 +15,7 @@ footer {
 }
 
 .footer-menu {
+	display: flex;
 	color: #2b7264;
 	margin-bottom: 2.5rem;
 	font-family: "Barlow", sans-serif;
@@ -58,8 +59,9 @@ footer .nav-link:hover {
 	color: #fff;
 }
 
-@media screen and (max-width: 750px) {
-	footer .nav-links-wrap {
-		display: flex;
+@media screen and (max-width: 300px) {
+	.footer-menu {
+		gap: 0;
+		font-size: 1.7rem;
 	}
 }
