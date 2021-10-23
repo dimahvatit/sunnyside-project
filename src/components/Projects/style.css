@@ -15,6 +15,10 @@
 	.project-item {
 		flex: 1 1 50%;
 	}
+
+	.projects {
+		min-height: 600px;
+	}
 }
 
 @media screen and (max-width: 500px) {

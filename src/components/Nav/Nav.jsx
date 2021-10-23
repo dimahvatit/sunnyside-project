@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { animateScroll as scroll } from "react-scroll" ;
 import NavMenu from "../NavMenu/NavMenu";
 import Logo from "./../Icons/Logo";
 import Burger from './../Icons/Burger';
@@ -16,7 +17,9 @@ const Nav = () => {
 	return (
 		<nav className='nav-wrap'>
 			<div className='nav-logo-wrap'>
-				<Logo className='nav-logo' />
+				<a onClick={scroll.scrollToTop}>
+					<Logo className='nav-logo' />
+				</a>
 			</div>
 			<NavMenu />
 			<button className='contact-btn'>Contact</button>

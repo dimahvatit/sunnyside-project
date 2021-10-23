@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link as ArrowDown } from "react-scroll";
 import src from "../../images/icon-arrow-down.svg";
 import webp from '../../images/desktop/image-header.webp';
@@ -18,7 +18,7 @@ const Intro = () => {
 				<h1 className='intro-header'>We are creatives</h1>
 				<ArrowDown
 					className='arrow-down-btn'
-					to='services'
+					to='about'
 					smooth={true}
 					offset={-80}
 					duration={500}

@@ -13,7 +13,7 @@ const Footer = () => {
 	return (
 		<footer>
 			<div className='footer-inner container'>
-				<div className='footer-logo-wrap'>
+				<div className='nav-logo-wrap footer-logo-wrap'>
 					<a onClick={scroll.scrollToTop}>
 						<Logo className='footer-logo' />
 					</a>
