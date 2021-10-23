@@ -125,6 +125,7 @@
 		grid-template-rows: 88px;
 		padding: 0 1.5rem;
 		position: fixed;
+		gap: 0;
 	}
 
 	.nav-logo-wrap {

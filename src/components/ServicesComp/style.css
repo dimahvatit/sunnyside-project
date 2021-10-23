@@ -8,6 +8,7 @@
 
 .services-item:nth-child(2) .serv-text {
     order: 2;
+    justify-content: flex-start;
 }
 
 .services-item:nth-child(2) .serv-image-wrap {
@@ -22,11 +23,16 @@
     background: #fff;
 }
 
+.services-item:first-child .serv-text {
+    justify-content: flex-end;
+}
+
 .serv-text-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 2.2rem;
+    max-width: 700px;
 }
 
 .serv-header {
@@ -37,7 +43,6 @@
 }
 
 .serv-par {
-    width: 90%;
     font-family: 'Barlow', sans-serif;
     font-size: 1rem;
     font-weight: 600;
@@ -70,7 +75,6 @@
     border-radius: 7px;
     background-color: hsl(7, 99%, 70%);
     opacity: 0.4;
-    z-index: -1;
     position: absolute;
     left: -6px;
     right: -6px;
@@ -80,10 +84,6 @@
 
 .services-item:first-child .serv-button::after {
     background-color: hsl(51, 100%, 49%);
-}
-
-.services-item:first-child .serv-text {
-    padding: 0 3rem 0 9rem;
 }
 
 .serv-button:hover {
@@ -123,6 +123,12 @@
     color: inherit;
     font-size: 0.95rem;
     margin-bottom: 0.4rem;
+}
+
+@media screen and (min-width: 1800px) {
+    .services-item {
+        min-height: calc(100vw / 3);
+    }
 }
 
 @media screen and (max-width: 1000px) {

@@ -8,7 +8,7 @@ const ServicesSection = ({
     img
 }) => {
     return (
-        <Row className="services-item container">
+        <Row className="services-item">
             <Col span={12} className="serv-text">
                 <div className="serv-text-content">
                     <h2 className="serv-header">{headline}</h2>

@@ -7,7 +7,7 @@ const ServLastSection = ({ pageData }) => {
     const photoData = pageData.obj2;
 
     return (
-        <Row className="services-item services-lastitem container" id="services">
+        <Row className="services-item services-lastitem" id="services">
             <Col span={12} className="serv-text" style={{backgroundImage: `url(${designData.img})`}}>
                 <div className="serv-text-content" style={{color: "hsl(167, 40%, 24%)"}}>
                     <h2 className="serv-header" >{designData.headline}</h2>

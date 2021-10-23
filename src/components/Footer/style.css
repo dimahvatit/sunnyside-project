@@ -63,5 +63,7 @@ footer .nav-link:hover {
 	.footer-menu {
 		gap: 0;
 		font-size: 1.7rem;
+		flex-direction: column;
+		margin: 3rem 0;
 	}
 }
