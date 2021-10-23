@@ -1,8 +1,8 @@
 import React from "react";
-import { Link as ArrowDown } from "react-scroll";
-import src from "../../images/icon-arrow-down.svg";
+import { Link } from "react-scroll";
 import webp from '../../images/desktop/image-header.webp';
 import jpg from '../../images/desktop/image-header.jpg';
+import ArrowDown from './../Icons/ArrowDown';
 import "./style.css";
 
 const Intro = () => {
@@ -16,15 +16,15 @@ const Intro = () => {
 
 			<div className='intro-container'>
 				<h1 className='intro-header'>We are creatives</h1>
-				<ArrowDown
+				<Link
 					className='arrow-down-btn'
 					to='about'
 					smooth={true}
 					offset={-80}
 					duration={500}
 					isDynamic={true}>
-					<img className='arrow-down' src={src} />
-				</ArrowDown>
+					<ArrowDown />
+				</Link>
 			</div>
 		</section>
 	);

@@ -58,6 +58,7 @@
     .feedbacks-cards {
         flex-direction: column;
         margin: 0 5rem;
+        gap: 3.5rem;
     }
 
     .card {

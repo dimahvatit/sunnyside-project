@@ -27,21 +27,14 @@
 }
 
 .arrow-down-btn {
-    background: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-.arrow-down-btn:hover .arrow-down {
-    transform: scale(1.1);
-    
-}
-
-.arrow-down {
-    display: block;
     transition: all 0.2s;
+    width: 36px;
 }
+
+.arrow-down-btn:hover {
+    transform: scale(1.1);
+}
+
 
 @media screen and (max-width: 500px) {
     
