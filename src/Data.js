@@ -74,14 +74,18 @@ export const feedbackData = [
 export const projectsData = [
 	{
 		img: require("./images/desktop/image-gallery-milkbottles.jpg").default,
+		name: "Milk bottles",
 	},
 	{
 		img: require("./images/desktop/image-gallery-orange.jpg").default,
+		name: "Orange",
 	},
 	{
 		img: require("./images/desktop/image-gallery-cone.jpg").default,
+		name: "No ice cream",
 	},
 	{
 		img: require("./images/desktop/image-gallery-sugarcubes.jpg").default,
+		name: "Sugar cubes",
 	},
 ]

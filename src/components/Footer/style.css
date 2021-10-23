@@ -48,6 +48,7 @@ footer {
 }
 
 .socials a svg {
+	transition: all 0.2s;
 	fill: #2e7565;
 }
 

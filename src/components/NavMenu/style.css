@@ -1,6 +1,6 @@
 .nav-links-wrap {
 	display: flex;
-	gap: 2.6rem;
+	gap: 1rem;
 	justify-content: space-between;
 	list-style: none;
 	margin-bottom: 0;
@@ -20,6 +20,10 @@
 	cursor: pointer;
 	padding: 5px;
 	text-align: center;
+	padding: 10px 20px;
+    border-radius: 25px;
+    background-color: transparent;
+	transition: all 0.2s;
 }
 
 .nav-link.active .nav-link-item::after {
@@ -33,6 +37,7 @@
 	right: 0;
 }
 
-.nav-link:hover {
-	color: #FFD402;
+.nav-links-wrap:not(.footer-menu) .nav-link:hover {
+	background-color: rgba(255, 255, 255, 0.377);
+	color: #fff;
 }
