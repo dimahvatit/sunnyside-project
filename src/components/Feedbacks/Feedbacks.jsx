@@ -13,7 +13,7 @@ const Feedbacks = ({ feedbacks }) => {
                             <Avatar size={70} src={item.avatar}/>
                             <p className="feedback-text">{item.text}</p>
                             <div className="feedback-author">
-                                <h4 className="author-name">{item.name}</h4>
+                                <h3 className="author-name">{item.name}</h3>
                                 <span className="author-position">{item.position}</span>
                             </div>
                         </div>

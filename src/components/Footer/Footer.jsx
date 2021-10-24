@@ -21,15 +21,19 @@ const Footer = () => {
                 <NavMenu className='footer-menu'/>
 				<div className='socials'>
 					<a href='#'>
+						Facebook link
 						<Facebook/>
 					</a>
 					<a href='#'>
+						Instagram link
 						<Instagram />
 					</a>
 					<a href='#'>
+						Twitter link
 						<Twitter />
 					</a>
 					<a href='#'>
+						Pinterest link
 						<Pinterest />
 					</a>
 				</div>
