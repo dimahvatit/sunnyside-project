@@ -65,6 +65,7 @@
     position: relative;
     cursor: pointer;
     transition: all 0.2s;
+    font-size: 1.2rem;
 }
 
 .serv-button::after {

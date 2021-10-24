@@ -70,3 +70,13 @@
 		min-height: 400px;
 	}
 }
+
+@media screen and (max-width: 320px) {
+	.project-item {
+		flex: 1 1 100%;
+	}
+
+	.projects {
+		min-height: 1000px;
+	}
+}
