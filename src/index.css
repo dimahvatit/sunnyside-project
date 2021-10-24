@@ -30,6 +30,9 @@ html,
 body {
 	font-size: 18px;
 	font-family: "Fraunces", serif !important;
+}
+
+body {
 	overflow-x: hidden;
 }
 
@@ -41,12 +44,6 @@ body {
 .container {
 	max-width: 1440px;
 	margin: 0 auto;
-}
-
-@media screen and (min-width: 1300px) {
-	html {
-		font-size: 22px !important;
-	}
 }
 
 @media screen and (max-width: 1300px) {
